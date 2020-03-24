@@ -1,6 +1,6 @@
 <?php
 
-namespace KingStarter\LaravelSaml\Console;
+namespace HealthierJacobsen\LaravelSaml\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\App;
