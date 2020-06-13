@@ -12,7 +12,7 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "qikker-online/lightsaml": "~2.0.*"
+        "qikker-online/lightsaml": "2.*"
     },
     "autoload": {
         "psr-4": {
