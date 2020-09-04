@@ -263,7 +263,8 @@ trait SamlAuth
      */
     protected function getNameId($user, $authnRequest)
     {
-        $nameIdAttribute = config('saml.sp.'.base64_encode($authnRequest->getAssertionConsumerServiceURL()).'.nameID', 'email');
+        //$nameIdAttribute = config('saml.sp.'.base64_encode($authnRequest->getAssertionConsumerServiceURL()).'.nameID', 'email');
+        $nameIdAttribute = 'email';
         return $user->{$nameIdAttribute};
     }
 }
