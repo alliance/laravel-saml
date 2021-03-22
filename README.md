@@ -6,6 +6,8 @@ The package is based on [Dustin Parham's guide to implement a SAML IDP with lara
 
 ## Installation
 
+
+
 ### Basic package installation
 
 Using ```composer```: 
