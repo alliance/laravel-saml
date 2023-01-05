@@ -8,6 +8,7 @@ build
 bin
 logs
 vendor
+.idea
 
 ########################
 # General ignore rules #
