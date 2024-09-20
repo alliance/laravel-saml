@@ -153,7 +153,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Foundation\Auth\RedirectsUsers;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 
-use HealthierJacobsen\LaravelSaml\Http\Traits\SamlAuth;
+use Alliance\LaravelSaml\Http\Traits\SamlAuth;
 
 trait AuthenticatesUsers
 {
