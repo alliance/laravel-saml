@@ -11,7 +11,7 @@ The package is based on [Dustin Parham's guide to implement a SAML IDP with lara
 Using ```composer```: 
 
 ``` 
-composer require "healthierjacobsen/laravel-saml":"dev-master"
+composer require "alliance/laravel-saml":"dev-master"
 ```
 
 #### Lightsaml dependency problem
@@ -22,7 +22,7 @@ In case you run in a current lightsaml dependency problem regarding symfony 4 (e
 Add the service provider to ```config/app.php```
 
 ```
-    HealthierJacobsen\LaravelSaml\LaravelSamlServiceProvider::class,
+    alliance\LaravelSaml\LaravelSamlServiceProvider::class,
 ```
 #### Laravel 5.5+
 This package supports Laravel's Package Auto Discovery and should be automatically loaded when required using composer. If the package is not auto discovered run
@@ -180,7 +180,7 @@ namespace App\Http\Middleware;
 use Closure;
 use Illuminate\Support\Facades\Auth;
 
-use HealthierJacobsen\LaravelSaml\Http\Traits\SamlAuth;
+use Alliance\LaravelSaml\Http\Traits\SamlAuth;
 
 class RedirectIfAuthenticated
 {
