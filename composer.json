@@ -1,28 +1,22 @@
 {
-    "name": "healthierjacobsen/laravel-saml",
+    "name": "alliance/laravel-saml",
     "description": "SAML support to make a laravel application to both a SAML IDP and a SAML SP.",
     "keywords": ["laravel", "saml", "illuminate", "auth", "acl", "login", "sso", "idp", "sp"],
     "license": "MIT",
     "version": "dev-master",
-    "authors": [
-        {
-            "name": "Wayne Jacobsen",
-            "email": "wayne.jacobsen@healthiergeneration.org"
-        }
-    ],
     "require": {
         "php": ">=5.5.9",
         "litesaml/lightsaml": "^3.0"
     },
     "autoload": {
         "psr-4": {
-            "HealthierJacobsen\\LaravelSaml\\": "src"
+            "Alliance\\LaravelSaml\\": "src"
         }
     },
     "extra": {
         "laravel": {
           "providers": [
-            "HealthierJacobsen\\LaravelSaml\\LaravelSamlServiceProvider"
+            "Alliance\\LaravelSaml\\LaravelSamlServiceProvider"
           ]
         }
     }
