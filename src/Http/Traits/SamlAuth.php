@@ -1,6 +1,6 @@
 <?php
 
-namespace HealthierJacobsen\LaravelSaml\Http\Traits;
+namespace Alliance\LaravelSaml\Http\Traits;
 
 use Storage;
 use Illuminate\Http\Request;
