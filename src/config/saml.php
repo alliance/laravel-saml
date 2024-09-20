@@ -5,7 +5,6 @@
  * a SAML IDP integration for laravel. 
  *
  * @license MIT
- * @package healthierjacobsen/laravel-saml
  */
 
 return [
