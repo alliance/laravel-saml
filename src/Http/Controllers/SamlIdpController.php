@@ -1,10 +1,10 @@
 <?php
 
-namespace HealthierJacobsen\LaravelSaml\Http\Controllers;
+namespace Alliance\LaravelSaml\Http\Controllers;
 
 use Illuminate\Routing\Controller as Controller;
 use Storage;
-use HealthierJacobsen\LaravelSaml\Http\Traits\SamlAuth;
+use Alliance\LaravelSaml\Http\Traits\SamlAuth;
 
 class SamlIdpController extends Controller 
 {
