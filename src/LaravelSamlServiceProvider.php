@@ -1,11 +1,11 @@
 <?php
 
-namespace HealthierJacobsen\LaravelSaml;
+namespace Alliance\LaravelSaml;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Application as LaravelApplication;
 use Config;
-use HealthierJacobsen\LaravelSaml\Console\EncodeAssertionUrlCommand;
+use Alliance\LaravelSaml\Console\EncodeAssertionUrlCommand;
 
 class LaravelSamlServiceProvider extends ServiceProvider
 {
