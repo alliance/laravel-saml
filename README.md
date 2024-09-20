@@ -22,7 +22,7 @@ In case you run in a current lightsaml dependency problem regarding symfony 4 (e
 Add the service provider to ```config/app.php```
 
 ```
-    alliance\LaravelSaml\LaravelSamlServiceProvider::class,
+    Alliance\LaravelSaml\LaravelSamlServiceProvider::class,
 ```
 #### Laravel 5.5+
 This package supports Laravel's Package Auto Discovery and should be automatically loaded when required using composer. If the package is not auto discovered run
